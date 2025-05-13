@@ -5,5 +5,5 @@ const task = require("./modules/cron");
 
 task.start();
 app.listen(process.env.PORT, () => {
-  console.log("Project and bot succesfully started!");
+	console.log("Project and bot succesfully started!");
 });
